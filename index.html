@@ -27,6 +27,17 @@ section {
 	height: 768px;
 	color: #821F21;
 }
+.support {
+	width: 100%;
+	text-align: center;
+}
+#products  {
+	text-align: center;
+	background-image: url(images/razer-products.png);
+	background-position: center 105px;
+	background-repeat: no-repeat;
+	position: relative;
+}
 nav {
 	height: 90px;
 }
@@ -48,7 +59,7 @@ nav ul li {
 	color: #00FF1F;
 }
 nav ul li:hover  {
-	background-color: #59007A;
+	background-color: #000000;
 	color: #E258FF;
 }
 ul a .logoli {
@@ -58,6 +69,7 @@ h1 {
 	width: 50%;
 	float: left;
 	color: #FFFFFF;
+	text-align: center;
 }
 #home .right {
 	text-align: right;
@@ -79,6 +91,36 @@ h1 {
 	margin: 0;
 	padding: 0;
 	float: left;
+}
+#support h2 {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+#products .products {
+	position: absolute;
+	background-color: rgba(106,106,106,0.67);
+	width: 200px;
+	height: 170px;
+	left: 700px;
+	top: 509px;
+}
+.products ul li {
+	list-style-type: none;
+	padding-top: 5px;
+	font-size: large;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 5px;
+	font-family: 'razer_blackwidowregular';
+	color: #00FF1F;
+}
+#community .comm {
+	text-align: center;
+}
+#community h2 {
+	text-align: center;
+	color: rgba(255,255,255,1.00);
 }
 </style>
 </head>
@@ -138,10 +180,21 @@ h1 {
 				<li>Community</li>
 			    </a>
 				
+					
 			</ul>
+					
+				
+				
 		  </nav>
-			<p><img src="images/razer-products.png" width="964" height="643" alt=""/></p>
-        </section>
+					
+				<div class="products"><ul>
+					<li>Mobile</li>
+					<li>Laptops</li>
+					<li>Headsets</li>
+					<li>Mice and Mats</li>
+					<li>Gear/ Apparel</li>
+				</ul></div>
+</section>
 		
 				<section id="accessories">
 		  <nav>
@@ -204,12 +257,12 @@ h1 {
 				
 	  </ul>
     </nav>
-	<h1><img src="images/keyboardtyping.png" width="574" height="323" alt=""/></h1>
+	<h1 class="support"><img src="images/keyboardtyping.png"></h1>
 	
-	<img src="images/clickdesk.png" width="413" height="119" alt=""/> </section>
+		<h2><img src="images/clickdesk.png" width="413" height="119" alt=""/></h2> 
 		
-		<img src="images/livechat.png" width="344" height="163" alt=""/>
-		
+		<h2><img src="images/livechat.png" width="344" height="163" alt=""/></h2>
+		</section>
 		
 <section id="community">
     <nav>
@@ -235,10 +288,11 @@ h1 {
 				
 	  </ul>
     </nav>
-	<h1><img src="images/razer-event.png" width="467" height="350" alt=""/></h1>
+	<h2>Team Razer is about growth through competition. It’s about being the best. About elevating the game and each other. Do you want to dominate your friends? Be the shining crown atop the leaderboards? Or change the meta as the new world champion? Then join the elite. Join #TeamRazer</h2>
+	<h1 class="comm"><img src="images/razer-event.png" width="467" height="350" alt=""/></h1>
 	
-	<img src="images/teamrazer.png" width="295" height="294" alt=""/> 
-	<img src="images/social-media.png" width="125" height="37" alt=""/> 
+	<h1><img src="images/teamrazer.png" width="295" height="294" alt=""/> <br>
+	<img src="images/social-media.png" width="125" height="37" alt=""/></h1>
 		
 		</section>
 			
